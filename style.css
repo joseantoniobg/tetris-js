@@ -1,0 +1,88 @@
+.grid-area {
+  margin-top: 1rem;
+  width: 240px;
+  height: 480px;
+  background-color: #eafffa;
+  overflow: hidden;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  margin-top: -96px;
+}
+
+.main-area {
+  display: flex;
+}
+
+.score {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn {
+  border: none;
+  background-color: rgb(36, 115, 151);
+  color: white;
+  padding: 1rem;
+  border-radius: 500px;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: .2s;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: rgb(23, 75, 99);
+}
+
+.btn:active {
+  transform: translateY(4px);
+}
+
+.score-points {
+  font-size: 2rem;
+}
+
+.mini-grid {
+  border-radius: 20px;
+  width: 200px;
+  height: 255px;
+  margin: 10px 0 0 100px;
+  background-color: rgb(162, 255, 255);
+}
+
+.next {
+  width: 178px;
+  height: 178px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  background-color: rgb(103, 243, 243);
+  margin-left: calc(50% - 89px);
+}
+
+.next div {
+  height: 20px;
+  width: 20px;
+  margin: 2px;
+}
+
+.mini-grid h2 {
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+  margin-top: 1.2rem;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+  margin: 2px;
+}
+
+.tetromino {
+  position: relative;
+  border-radius: 3px;
+}
